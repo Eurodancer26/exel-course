@@ -1,0 +1,25 @@
+{
+  "name": "exel-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eurodancer26/exel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "exel"
+  ],
+  "author": "Timur Mur <murushkin.timur@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eurodancer26/exel-course/issues"
+  },
+  "homepage": "https://github.com/Eurodancer26/exel-course#readme",
+  "private":"true"
+}
