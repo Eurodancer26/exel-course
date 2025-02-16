@@ -1,2 +1,0 @@
-# exel-course
-# exel-course
