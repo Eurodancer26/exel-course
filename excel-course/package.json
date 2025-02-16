@@ -1,0 +1,31 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eurodancer26/exel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Timur Mur <murushkin.timur@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eurodancer26/exel-course/issues"
+  },
+  "homepage": "https://github.com/Eurodancer26/exel-course#readme",
+  "private": "true",
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
