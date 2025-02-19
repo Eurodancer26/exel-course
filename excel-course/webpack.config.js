@@ -55,6 +55,7 @@ module.exports = {
     devServer: {
       port: 4000,
       hot: isDev,
+      historyApiFallback: true
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -66,7 +67,7 @@ module.exports = {
             }
         }),
         new CleanWebpackPlugin(),
-        new ProgressPlugin(true),
+        isProd && new ProgressPlugin(true),
         new CopyPlugin({
             patterns: [
               { 

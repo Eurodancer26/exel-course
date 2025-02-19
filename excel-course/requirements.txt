@@ -21,3 +21,8 @@ Git
 	git commit -M "" ---> добавить commit
 	git checkout -b "webpack" ---> добавить ветку и переключиться на неё
 	git push -u origin webpack ---> залить на веку webpack
+	git checkout main ---> переключение веток
+	git pull ---> обновление, синхронизация
+
+	    "sass": "^1.70.0",
+    "sass-loader": "^14.0.0",
