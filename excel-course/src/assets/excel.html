@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pure JavaScript Excel</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="excel">
+<!-- ----------------Header---------------------- -->
+            <div class="excel__header">
+                <input type="text" class="excel__header-input" value="Новая таблица">
+                <div>
+                    <div class="excel__header-btn">
+                        <i class="fa-solid fa-trash"></i> 
+                    </div>
+
+                    <div class="excel__header-btn">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </div>
+                </div>
+            </div>
+<!-- ----------------Toolbar--------------------- -->
+            <div class="excel__toolbar">
+
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-align-left"></i>
+                </div>
+
+                
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-align-center"></i>
+                </div>
+
+                
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-align-right"></i>
+                </div>
+
+                
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-b"></i> 
+                </div>
+
+                
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-italic"></i>
+                </div>
+
+                
+                <div class="excel__toolbar-btn">
+                    <i class="fa-solid fa-underline"></i>
+                </div>
+
+            </div>
+<!-- ----------------Formula--------------------- -->
+            <div class="excel__formula">
+                <div class="excel__formula-info">fx</div>
+                <div class="excel__formula-input" contenteditable spellcheck="false"></div>
+            </div>
+<!-- ----------------Table----------------------- -->
+<div class="excel__table">
+
+    <div class="row">
+
+      <div class="row-info"></div>
+
+      <div class="row-data">
+        <div class="column">
+          A
+        </div>
+        <div class="column">
+          B
+        </div>
+        <div class="column">
+          C
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="row-info">
+        1
+      </div>
+
+      <div class="row-data">
+        <div class="cell selected" contenteditable="">A1</div>
+        <div class="cell" contenteditable="">B2</div>
+        <div class="cell" contenteditable="">C3</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-info">
+        2
+      </div>
+
+      <div class="row-data">
+        <div class="cell">A1</div>
+        <div class="cell">B2</div>
+        <div class="cell">C3</div>
+      </div>
+    </div>
+
+  </div>
+
+        </div>
+    </div>
+</body>
+</html>
